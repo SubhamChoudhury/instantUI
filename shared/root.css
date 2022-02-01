@@ -1,0 +1,20 @@
+:root {
+  /* ====== Colors ====== */
+  --primary-color: #3f37c9;
+  --primary-color-100: #695cfe;
+  --secondary-color: #e5e7eb;
+  --sidebar-text: #707070;
+  --title-and-subtitle: #333;
+  --white: #fff;
+  --blue: #0000ff;
+
+  /* ====== Fonts ====== */
+  --logo-font: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+
+  /* ====== Transition ====== */
+  --tran-03: all 0.2s ease;
+  --tran-03: all 0.3s ease;
+  --tran-04: all 0.3s ease;
+  --tran-05: all 0.3s ease;
+}

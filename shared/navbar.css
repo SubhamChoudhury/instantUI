@@ -1,0 +1,36 @@
+.wrapper {
+    width: 85%;
+    margin: auto;
+  }
+.navbar {
+    padding: 2.5rem 1rem;
+    margin-left: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-right {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+  }
+  .nav-right-list-items {
+    margin: 1.6px 16px;
+  }
+  .nav-right-list-item {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(66, 65, 65);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .nav-right-list-item:hover {
+    opacity: 0.8;
+  }
+  .logo-text {
+    font-family: var(--logo-font);
+    color: var(--blue);
+    font-size: 24px;
+    font-weight: 400;
+  }
