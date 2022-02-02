@@ -1,51 +1,8 @@
-:root {
-  --primary-color: #3f37c9;
-  --secondary-color: #e5e7eb;
-  --white: #f3f4f6;
-  --blue: #0000ff;
-  --logo-font: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-a {
-  text-decoration: none;
-}
-.wrapper {
-  width: 85%;
-  margin: auto;
-  height: 100vh;
-}
-.navbar {
-  padding: 2.5rem 1rem;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.nav-right {
-  display: flex;
-  justify-content: space-evenly;
-  list-style: none;
-}
-.nav-right-list-items {
-  margin: 1.6px 16px;
-}
-.nav-right-list-item {
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: rgb(66, 65, 65);
-  text-decoration: none;
-  cursor: pointer;
-}
-.nav-right-list-item:hover {
-  opacity: 0.8;
-}
-.logo-text {
-  font-family: var(--log-font);
-  color: var(--blue);
-  font-size: 24px;
-  font-weight: 400;
+.navbar{
+  margin-left: 0rem;
 }
 .main-wrapper {
   display: flex;
