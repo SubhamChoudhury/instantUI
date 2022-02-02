@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('../components/avatar/avatar.css');
+
 .doc-content{
     min-width: 0;
     margin: 0px auto;
@@ -19,10 +22,17 @@
     font-size: 1rem;
     font-weight: 400;
 }
+.content-subhead{
+    font-family: 'Nunito Sans', sans-serif;
+    color : #333;
+    font-size: 1.7rem;
+    font-weight: 800;
+    margin: 1.5rem 0 1rem 0;
+}
 .iframe{
     margin-top: 2rem;
 }
-.avatar-container {
+.component-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -34,4 +44,8 @@
     background-color: #F5F7F9;
     min-height: 100px;
     width: 100%;
+}
+.separator{
+    margin: 1rem 0 1rem 0;
+    border-bottom: 1.5px solid var(--primary-color-100);
 }
