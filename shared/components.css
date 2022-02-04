@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i,600,700');
 @import url('../components/avatar/avatar.css');
 
 .doc-content{
@@ -12,7 +13,6 @@
     color : var(--title-and-subtitle);
     font-size: 2rem;
     font-weight: 900;
-    /* margin: auto; */
 }
 .content-subtitle{
     font-family: 'Nunito Sans', sans-serif;
@@ -48,4 +48,7 @@
 .separator{
     margin: 1rem 0 1rem 0;
     border-bottom: 1.5px solid var(--primary-color-100);
+}
+.alert-container{
+    flex-direction: column;
 }
