@@ -5,6 +5,8 @@
   --secondary-color: #e5e7eb;
   --success-color :#4CAF50;
   --danger-color : #F44336;
+  --info-color : #2196F3;
+  --warning-color : #f87d09;
   --sidebar-text: #707070;
   --title-and-subtitle: #333;
   
@@ -15,10 +17,11 @@
   /* ====== Fonts ====== */
   --logo-font: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
+    --josefin-font: "Josefin Sans", sans-serif;
 
   /* ====== Transition ====== */
-  --tran-03: all 0.2s ease;
+  --tran-02: all 0.2s ease;
   --tran-03: all 0.3s ease;
-  --tran-04: all 0.3s ease;
-  --tran-05: all 0.3s ease;
+  --tran-04: all 0.4s ease;
+  --tran-05: all 0.5s ease;
 }
