@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../shared/reset.css">
+    <link rel="stylesheet" href="../../shared/navbar.css" />
+    <link rel="stylesheet" href="../../shared/sidebar.css">
+    <link rel="stylesheet" href="../../shared/root.css" />
+    <link rel="stylesheet" href="../../shared/components.css">
+    <link rel="stylesheet" href="./button.css" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Button</title>
+</head>
+
+<body>
+    <a name="top"></a>
+    <div class="wrapper" id="wrapper">
+        <header>
+            <nav class="navbar">
+                <div class="nav-left">
+                    <a class="logo-text" href="../../index.html">Instant UI</a>
+                    <span class="version">v1.0</span>
+                </div>
+                <ul class="nav-right">
+                    <li class="nav-right-list-items">
+                        <a class="nav-right-list-item" href="#">Docs</a>
+                    </li>
+                    <li class="nav-right-list-items">
+                        <a class="nav-right-list-item" href=""><img src="../../assets/GitHub.svg" /></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <aside class="sidebar close">
+            <header class='menu-header'>
+                <i class="fas fa-chevron-circle-right toggle"></i>
+                <div class="text component-text">
+                    <span class="sidebar-menu-name">How to use?</span>
+                </div>
+                <div class="menu-bar">
+                    <div class="menu">
+                        <ul class="menu-links">
+                            <li class="sidebar-link">
+                                <a class="sidebar-link-item" href="#">
+                                    <i class="fas fa-question-circle icon"></i>
+                                    <span class="text nav-text">To be updated</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text component-text">
+                    <span class="sidebar-menu-name">Components</span>
+                </div>
+            </header>
+            <div class="menu-bar">
+                <div class="menu">
+                    <ul class="menu-links">
+                        <li class="sidebar-link ">
+                            <a class="sidebar-link-item" href="../alert/alert.html">
+                                <i class="fas fa-exclamation-triangle icon "></i>
+                                <span class="text nav-text">Alert</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link ">
+                            <a class="sidebar-link-item" href="../avatar/avatar.html">
+                                <i class="fas fa-user-astronaut icon "></i>
+                                <span class="text nav-text ">Avatar</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link">
+                            <a class="sidebar-link-item" href="../badges/badges.html">
+                                <i class="fas fa-id-badge icon"></i>
+                                <span class="text nav-text">Badge</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link active">
+                            <a class="sidebar-link-item" href="../button/button.html">
+                                <i class="fa-solid fa-stop icon active"></i>
+                                <span class="text nav-text active-text">Button</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link">
+                            <a class="sidebar-link-item" href="#">
+                                <i class="fas fa-address-card icon"></i>
+                                <span class="text nav-text">Card</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link">
+                            <a class="sidebar-link-item" href="#">
+                                <i class="far fa-image icon"></i>
+                                <span class="text nav-text">Image</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link">
+                            <a class="sidebar-link-item" href="#">
+                                <i class="fas fa-keyboard icon"></i>
+                                <span class="text nav-text">Input</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <main>
+            <!--Button component starts-->
+            <section class="home">
+                <div class="doc-content">
+                    <div class="content-title">
+                        Button
+                    </div>
+                    <div class="content-subtitle">
+                        Buttons are one of the most important element of a website. Buttons allow users to perform
+                        actions with a single click. </div>
+                    <div class="separator"></div>
+
+                    <!--Contained button-->
+                    <div class="content-subhead">
+                        Contained Button
+                    </div>
+                    <div class="content-subtitle">
+                        Contained buttons are high-emphasis, distinguished by their use of elevation and fill. They
+                        contain actions that are primary to your app.
+                    </div>
+                    <div class="component-container">
+                        <button class="base-btn btn-primary">PRIMARY</button>
+
+                        <button class="base-btn  btn-secondary">SECONDARY</button>
+
+                        <button class="base-btn  btn-error">ERROR</button>
+
+                        <button class="base-btn  btn-info">INFO</button>
+
+                        <button class="base-btn  btn-success">SUCCESS</button>
+
+                    </div>
+
+                    <div class="iframe">
+                        <iframe src="https://carbon.now.sh/embed/ZqBGhhfLAzomebZmeMQb"
+                            style="width: 100%; height: 296px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <div class="separator"></div>
+
+                    <!--Outline button-->
+                    <div class="content-subhead">
+                        Outline Button
+                    </div>
+                    <div class="content-subtitle">
+                        Replace <code>btn-variant</code> with <code>outline-variant</code> to get an outline button.
+                    </div>
+                    <div class="component-container">
+                        <button class="base-btn outline-primary">PRIMARY</button>
+
+                        <button class="base-btn  outline-error">ERROR</button>
+
+                        <button class="base-btn  outline-info">INFO</button>
+
+                        <button class="base-btn  outline-success">SUCCESS</button>
+                    </div>
+                    <div class="iframe">
+                        <iframe src="https://carbon.now.sh/embed/ZqBGhhfLAzomebZmeMQb"
+                            style="width: 100%; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <div class="separator"></div>
+
+                    <!--Link button-->
+                    <div class="content-subhead">
+                        Link Button
+                    </div>
+                    <div class="content-subtitle">
+                        Link buttons are typically used for less-pronounced actions, including those located in dialogs
+                        or in cards. Add the <code>btn-link</code> modifier to a button to apply the link styles.
+                    </div>
+                    <div class="component-container">
+                        <button class="base-btn btn-link"><a href="link">LINK</a>
+                        </button>
+                    </div>
+                    <div class="iframe">
+                        <iframe src="https://carbon.now.sh/embed/8VqMmD02FYUi72x9Spv2"
+                            style="width: 100%; height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <div class="separator"></div>
+
+                    <!--Icon button-->
+                    <div class="content-subhead">
+                        Icon Button
+                    </div>
+                    <div class="content-subtitle">
+                        Icon Buttons can be created, by using a SVG as a child to parent button. Use the
+                        <code> btn</code> class followed by <code>btn-icon</code> .
+                    </div>
+                    <div class="component-container">
+                        <button class="base-btn btn-icon">
+                            <svg aria-hidden="true" focusable="false" height="1em" data-prefix="fas"
+                                data-icon="shopping-cart" class="svg-inline--fa fa-shopping-cart fa-w-18" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                <path fill="currentColor"
+                                    d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z">
+                                </path>
+                            </svg>
+                            ADD TO CART
+                        </button>
+                    </div>
+                    <div class="iframe">
+                        <iframe src="https://carbon.now.sh/embed/cHUOSDS10vYrpZglMtnN"
+                            style="width: 100%; height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <div class="separator"></div>
+
+                    <!--Float button-->
+                    <div class="content-subhead">
+                        Float Button
+                    </div>
+                    <div class="content-subtitle">
+                        A demo of the use of <code>float button</code> is shown in the bottom-right corner
+                        of the page. Just add the <code>btn-float</code> class to the button.
+                    </div>
+                    <div class="component-container">
+                        <button class="btn-float">
+                            <svg aria-hidden="true" focusable="false" height="2em" data-prefix="fas"
+                                data-icon="arrow-up" class="svg-inline--fa fa-arrow-up fa-w-14" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z">
+                                </path>
+                            </svg>
+                            <a href="#"></a>
+                        </button>
+                    </div>
+                    <div class="iframe">
+                        <iframe src="https://carbon.now.sh/embed/V0DCkOo0RQPl1KE6fC6P"
+                            style="width: 100%; height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+            </section>
+        </main>
+    </div>
+
+    <!--Float button demo-->
+    <button class="btn-float-demo">
+        <svg aria-hidden="true" focusable="false" height="2em" data-prefix="fas" data-icon="arrow-up"
+            class="svg-inline--fa fa-arrow-up fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512">
+            <path fill="currentColor"
+                d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z">
+            </path>
+        </svg>
+        <a href="#top"></a>
+    </button>
+    <script>
+        const body = document.querySelector('body'),
+            sidebar = document.querySelector('aside'),
+            toggle = document.querySelector(".toggle"),
+            activeIcon = document.querySelector(".icon")
+        toggle.addEventListener("click", () => {
+            sidebar.classList.toggle("close");
+        })
+    </script>
+</body>
+
+</script>
+</body>
+
+</html>

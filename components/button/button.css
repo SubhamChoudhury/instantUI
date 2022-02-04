@@ -1,0 +1,99 @@
+.base-btn {
+  min-width: 100px;
+  width: max-content;
+  font-family: var(--josefin-font);
+  background: var(--primary-color);
+  color: white;
+  font-weight: 500;
+  padding: 1rem 1rem;
+  border-radius: 1px;
+  transition: var(--tran-02);
+  opacity: 0.8;
+  margin: 0.8rem;
+}
+.base-btn:hover {
+  opacity: 1;
+}
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: black;
+}
+.btn-error {
+  background-color: var(--danger-color);
+}
+.btn-info {
+  background-color: var(--info-color);
+  color: white;
+}
+.btn-success {
+  background-color: var(--success-color);
+}
+
+/* Outline button */
+.base-btn.outline-primary {
+  background-color: white;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.base-btn.outline-error {
+  background-color: white;
+  border: 1px solid var(--danger-color);
+  color: var(--danger-color);
+}
+.base-btn.outline-info {
+  background-color: white;
+  border: 1px solid var(--info-color);
+  color: var(--info-color);
+}
+.base-btn.outline-success {
+  background-color: white;
+  border: 1px solid var(--success-color);
+  color: var(--success-color);
+}
+/* Link button */
+.btn-link {
+  background-color: var(--primary-color-100);
+  color: white;
+}
+/* Icon button */
+.btn-icon {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn-icon svg {
+  margin-right: 5px;
+}
+/*Floating button */
+.btn-float {
+  background-color: var(--info-color);
+  color: var(--white);
+  padding: 0.8rem 1rem;
+  border-radius: 50%;
+  box-shadow: rgb(128 128 128 / 35%) 4px 6px 14px 1px;
+}
+.btn-float:hover {
+  transition: var(--tran-02);
+  transform: translateY(-10%);
+}
+/*Floating button demo */
+.btn-float-demo {
+  background-color: var(--info-color);
+  color: var(--white);
+  min-width: 50px;
+  min-height: 50px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+}
+.btn-float-demo:hover {
+  transition: var(--tran-02);
+  transform: translateY(-10%);
+}
