@@ -52,3 +52,7 @@
 .alert-container{
     flex-direction: column;
 }
+.info{
+    color: var(--info-color);
+    font-weight: 500;
+}

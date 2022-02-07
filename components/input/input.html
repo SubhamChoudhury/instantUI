@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../shared/reset.css">
+    <link rel="stylesheet" href="../../shared/navbar.css" />
+    <link rel="stylesheet" href="../../shared/sidebar.css">
+    <link rel="stylesheet" href="../../shared/root.css" />
+    <link rel="stylesheet" href="../../shared/components.css">
+    <link rel="stylesheet" href="./input.css" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Input</title>
+</head>
+
+<body>
+    <a name="top"></a>
+    <div class="wrapper" id="wrapper">
+        <header>
+            <nav class="navbar">
+                <div class="nav-left">
+                    <a class="logo-text" href="../../index.html">Instant UI</a>
+                    <span class="version">v1.0</span>
+                </div>
+                <ul class="nav-right">
+                    <li class="nav-right-list-items">
+                        <a class="nav-right-list-item" href="#">Docs</a>
+                    </li>
+                    <li class="nav-right-list-items">
+                        <a class="nav-right-list-item" href=""><img src="../../assets/GitHub.svg" /></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <aside class="sidebar close">
+            <header class='menu-header'>
+                <i class="fas fa-chevron-circle-right toggle"></i>
+                <div class="text component-text">
+                    <span class="sidebar-menu-name">How to use?</span>
+                </div>
+                <div class="menu-bar">
+                    <div class="menu">
+                        <ul class="menu-links">
+                            <li class="sidebar-link">
+                                <a class="sidebar-link-item" href="#">
+                                    <i class="fas fa-question-circle icon"></i>
+                                    <span class="text nav-text">To be updated</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text component-text">
+                    <span class="sidebar-menu-name">Components</span>
+                </div>
+            </header>
+            <div class="menu-bar">
+                <div class="menu">
+                    <ul class="menu-links">
+                        <li class="sidebar-link ">
+                            <a class="sidebar-link-item" href="../alert/alert.html">
+                                <i class="fas fa-exclamation-triangle icon "></i>
+                                <span class="text nav-text">Alert</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link ">
+                            <a class="sidebar-link-item" href="../avatar/avatar.html">
+                                <i class="fas fa-user-astronaut icon "></i>
+                                <span class="text nav-text ">Avatar</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link">
+                            <a class="sidebar-link-item" href="../badges/badges.html">
+                                <i class="fas fa-id-badge icon"></i>
+                                <span class="text nav-text">Badge</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link">
+                            <a class="sidebar-link-item" href="../button/button.html">
+                                <i class="fa-solid fa-stop icon"></i>
+                                <span class="text nav-text">Button</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link">
+                            <a class="sidebar-link-item" href="#">
+                                <i class="fas fa-address-card icon"></i>
+                                <span class="text nav-text">Card</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link active">
+                            <a class="sidebar-link-item" href="../image/image.html">
+                                <i class="far fa-image icon active"></i>
+                                <span class="text nav-text active-text">Image</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link">
+                            <a class="sidebar-link-item" href="../input/input.html">
+                                <i class="fas fa-keyboard icon"></i>
+                                <span class="text nav-text">Input</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <main>
+            <!--Input component starts-->
+            <section class="home">
+                <div class="doc-content">
+                    <div class="content-title">
+                        Inputs
+                    </div>
+                    <div class="content-subtitle">
+                        Inputs enable user interaction with the website. Inputs are used to take and record information
+                        from the user, for later use. </div>
+                    <div class="separator"></div>
+
+                    <!--Textbox Input-->
+                    <div class="content-subhead">
+                        Textbox
+                    </div>
+                    <div class="content-subtitle">
+                        Textbox provides a text input area used to collect information from the user.
+                    </div>
+                    <div class="component-container">
+                        <div class="inp-wrapper">
+                            <label>Enter the information</label>
+                            <input type="text" class="inp-textbox">
+                        </div>
+
+                    </div>
+
+                    <div class="iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=htmlmixed&width=694&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=23px&ph=18px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522inp-textbox%2522%253E%250A%2520%2520%2520%253Clabel%253EEnter%2520the%2520information%253C%252Flabel%253E%250A%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%253E%250A%2520%253C%252Fdiv%253E"
+                            style="width: 100%; height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <div class="separator"></div>
+
+                    <!--Input field with validation-->
+                    <div class="content-subhead">
+                        Input field with Validation
+                    </div>
+                    <div class="content-subtitle">
+                        Input field with validation helps to validate the kind of data collected from the user.<br />
+                        <div class="info">Note : Type your email address to check validation.</div>
+                    </div>
+                    <div class="component-container">
+                        <form action="" class="inp-wrapper inp-validation ">
+                            <label>Enter your email</label>
+                            <input type="email" class="inp-textbox" required>
+                        </form>
+                    </div>
+                    <div class="iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=21px&ph=21px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cform%2520action%253D%2522%2522%2520class%253D%2522inp-wrapper%2520inp-validation%2520%2522%253E%250A%2520%2520%2520%2520%2520%253Clabel%253EEnter%2520your%2520email%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520class%253D%2522inp-textbox%2522%2520required%253E%250A%253C%252Fform%253E"
+                            style="width: 100%; height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+            </section>
+        </main>
+    </div>
+    <script>
+        const body = document.querySelector('body'),
+            sidebar = document.querySelector('aside'),
+            toggle = document.querySelector(".toggle"),
+            activeIcon = document.querySelector(".icon")
+        toggle.addEventListener("click", () => {
+            sidebar.classList.toggle("close");
+        })
+    </script>
+</body>
+
+</script>
+</body>
+
+</html>
