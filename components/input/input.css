@@ -1,0 +1,27 @@
+.inp-wrapper {
+  line-height: 16px;
+  margin: 10px;
+  width: 80%;
+}
+label {
+  display: block;
+  margin-bottom: 2px;
+}
+.inp-textbox {
+  outline: none;
+  border: 1px solid var(--sidebar-text);
+  padding: 0.6rem;
+  font-size: 0.8rem;
+  margin: 5px 0;
+  width: 100%;
+  border-radius: 2px;
+}
+.inp-textbox input:focus {
+  border: 1px solid var(--primary-color);
+}
+.inp-validation input:invalid {
+  border-color: var(--danger-color);
+}
+.inp-validation input:valid {
+  border-color: var(--success-color);
+}
