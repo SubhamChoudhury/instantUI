@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../shared/reset.css">
+    <link rel="stylesheet" href="../../shared/navbar.css" />
+    <link rel="stylesheet" href="../../shared/sidebar.css">
+    <link rel="stylesheet" href="../../shared/root.css" />
+    <link rel="stylesheet" href="../../shared/components.css">
+    <link rel="stylesheet" href="./image.css" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Images</title>
+</head>
+
+<body>
+    <a name="top"></a>
+    <div class="wrapper" id="wrapper">
+        <header>
+            <nav class="navbar">
+                <div class="nav-left">
+                    <a class="logo-text" href="../../index.html">Instant UI</a>
+                    <span class="version">v1.0</span>
+                </div>
+                <ul class="nav-right">
+                    <li class="nav-right-list-items">
+                        <a class="nav-right-list-item" href="#">Docs</a>
+                    </li>
+                    <li class="nav-right-list-items">
+                        <a class="nav-right-list-item" href=""><img src="../../assets/GitHub.svg" /></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <aside class="sidebar close">
+            <header class='menu-header'>
+                <i class="fas fa-chevron-circle-right toggle"></i>
+                <div class="text component-text">
+                    <span class="sidebar-menu-name">How to use?</span>
+                </div>
+                <div class="menu-bar">
+                    <div class="menu">
+                        <ul class="menu-links">
+                            <li class="sidebar-link">
+                                <a class="sidebar-link-item" href="#">
+                                    <i class="fas fa-question-circle icon"></i>
+                                    <span class="text nav-text">To be updated</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text component-text">
+                    <span class="sidebar-menu-name">Components</span>
+                </div>
+            </header>
+            <div class="menu-bar">
+                <div class="menu">
+                    <ul class="menu-links">
+                        <li class="sidebar-link ">
+                            <a class="sidebar-link-item" href="../alert/alert.html">
+                                <i class="fas fa-exclamation-triangle icon "></i>
+                                <span class="text nav-text">Alert</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link ">
+                            <a class="sidebar-link-item" href="../avatar/avatar.html">
+                                <i class="fas fa-user-astronaut icon "></i>
+                                <span class="text nav-text ">Avatar</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link">
+                            <a class="sidebar-link-item" href="../badges/badges.html">
+                                <i class="fas fa-id-badge icon"></i>
+                                <span class="text nav-text">Badge</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link">
+                            <a class="sidebar-link-item" href="../button/button.html">
+                                <i class="fa-solid fa-stop icon"></i>
+                                <span class="text nav-text">Button</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link">
+                            <a class="sidebar-link-item" href="#">
+                                <i class="fas fa-address-card icon"></i>
+                                <span class="text nav-text">Card</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link active">
+                            <a class="sidebar-link-item" href="../image/image.html">
+                                <i class="far fa-image icon active"></i>
+                                <span class="text nav-text active-text">Image</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link">
+                            <a class="sidebar-link-item" href="../input/input.html">
+                                <i class="fas fa-keyboard icon"></i>
+                                <span class="text nav-text">Input</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <main>
+            <!--Image component starts-->
+            <section class="home">
+                <div class="doc-content">
+                    <div class="content-title">
+                        Images
+                    </div>
+                    <div class="content-subtitle">
+                        Images or responsive images are used for visual information displayed on websites that are
+                        screen responsive. </div>
+                    <div class="separator"></div>
+
+                    <!--Contained button-->
+                    <div class="content-subhead">
+                        Squared & Round Images
+                    </div>
+                    <div class="content-subtitle">
+                        Images with squared and rounded corners with specified default dimensions. Use class <code>
+                            .img-square</code> or <code> .img-round</code> to specify the image shape.
+                    </div>
+                    <div class="component-container">
+                        <img src="../../assets/sq-img.jpeg" alt="squared-image" class="img-square">
+                        <img src="../../assets/round-img.jpeg" alt="round-image" class="img-round">
+
+                    </div>
+
+                    <div class="iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=htmlmixed&width=694&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=23px&ph=18px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--Image%2520with%2520square%2520corners--%253E%250A%253Cimg%2520src%253D%2522source%2520of%2520image%2522%2520alt%253D%2522squared-image%2522%2520class%253D%2522img-square%2522%253E%250A%250A%253C%21--Image%2520with%2520round%2520corners--%253E%250A%253Cimg%2520src%253D%2522source%2520of%2520image%2522%2520alt%253D%2522round-image%2522%2520class%253D%2522img-round%2522%253E"
+                            style="width: 100%; height: 220px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <div class="separator"></div>
+
+                    <!--Responsive Images-->
+                    <div class="content-subhead">
+                        Responsive Image
+                    </div>
+                    <div class="content-subtitle">
+                        Responsive Image is the one that expands to cover the container it is present in.
+                    </div>
+                    <div class="component-container">
+                        <img src="../../assets/round-img.jpeg" alt="rsp-image" class="img-rsp">
+                    </div>
+                    <div class="iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=htmlmixed&width=694&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=23px&ph=18px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--Use%2520%2560img-rsp%2560%2520class--%253E%250A%253Cimg%2520src%253D%2522source%2520of%2520image%2522%2520alt%253D%2522rsp-image%2522%2520class%253D%2522img-rsp%2522%253E"
+                            style="width: 100%; height: 150px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+            </section>
+        </main>
+    </div>
+    <script>
+        const body = document.querySelector('body'),
+            sidebar = document.querySelector('aside'),
+            toggle = document.querySelector(".toggle"),
+            activeIcon = document.querySelector(".icon")
+        toggle.addEventListener("click", () => {
+            sidebar.classList.toggle("close");
+        })
+    </script>
+</body>
+
+</script>
+</body>
+
+</html>
