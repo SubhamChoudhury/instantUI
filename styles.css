@@ -1,7 +1,7 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.navbar{
+.navbar {
   margin-left: 0rem;
 }
 .main-wrapper {
@@ -33,6 +33,12 @@ body {
 }
 .branding {
   color: var(--blue);
+}
+.logo-text {
+  margin-left: 4rem;
+}
+.nav-right {
+  margin-right: 0;
 }
 .buttons-cta {
   margin-top: 2.4rem;

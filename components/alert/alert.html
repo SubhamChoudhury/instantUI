@@ -1,197 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../../shared/reset.css">
-    <link rel="stylesheet" href="../../shared/navbar.css" />
-    <link rel="stylesheet" href="../../shared/sidebar.css">
-    <link rel="stylesheet" href="../../shared/root.css" />
-    <link rel="stylesheet" href="../../shared/components.css">
+    <link rel="stylesheet" href="../../shared/components.css" />
     <link rel="stylesheet" href="./alert.css" />
-  
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <title>Alert</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="wrapper">
-      <header>
-        <nav class="navbar">
-          <div class="nav-left">
-            <a class="logo-text" href="../../index.html">Instant UI</a>
-            <span class="version">v1.0</span>
-          </div>
-          <ul class="nav-right">
-            <li class="nav-right-list-items">
-              <a class="nav-right-list-item" href="#">Docs</a>
-            </li>
-            <li class="nav-right-list-items">
-              <a class="nav-right-list-item" href=""
-                ><img src="../../assets/GitHub.svg"
-              /></a>
-            </li>
-          </ul>
-        </nav> 
-      </header>
-      <aside class="sidebar close">
-        <header class='menu-header'>
-            <i class="fas fa-chevron-circle-right toggle"></i>
-            <div class="text component-text">
-                <span class="sidebar-menu-name">How to use?</span>
-            </div>
-            <div class="menu-bar">
-                <div class="menu"> 
-                    <ul class="menu-links">                     
-                        <li class="sidebar-link">
-                            <a class="sidebar-link-item" href="#">
-                                <i class="fas fa-question-circle icon"></i>
-                                <span class="text nav-text">To be updated</span>
-                            </a>
-                        </li>
-                        </ul>
+        <header>
+            <nav class="navbar">
+                <div class="nav-left">
+                    <a class="logo-text" href="../../index.html">Instant UI</a>
+                    <span class="version">v1.0</span>
                 </div>
+                <ul class="nav-right">
+                    <li class="nav-right-list-items">
+                        <a class="nav-right-list-item" href="#">Docs</a>
+                    </li>
+                    <li class="nav-right-list-items">
+                        <a class="nav-right-list-item" href=""><img src="../../assets/GitHub.svg" /></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <aside class="sidebar close">
+            <header class='menu-header'>
+                <i class="fas fa-chevron-circle-right toggle"></i>
+                <div class="text component-text">
+                    <span class="sidebar-menu-name">How to use?</span>
+                </div>
+                <div class="menu-bar">
+                    <div class="menu">
+                        <ul class="menu-links">
+                            <li class="sidebar-link">
+                                <a class="sidebar-link-item" href="#">
+                                    <i class="fas fa-question-circle icon"></i>
+                                    <span class="text nav-text">To be updated</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="text component-text">
                     <span class="sidebar-menu-name">Components</span>
                 </div>
             </header>
-        <div class="menu-bar">
-            <div class="menu">
-                <ul class="menu-links"> 
-                    <li class="sidebar-link active">
-                        <a class="sidebar-link-item " href="../alert/alert.html">
-                            <i class="fas fa-exclamation-triangle icon active"></i>
-                            <span class="text nav-text active-text">Alert</span>
-                        </a>
-                    </li>
-                    <li class="sidebar-link ">
-                        <a class="sidebar-link-item" href="../avatar/avatar.html">
-                            <i class="fas fa-user-astronaut icon "></i>
-                            <span class="text nav-text ">Avatar</span>
-                        </a>
-                    </li>
-                    <li class="sidebar-link">
-                        <a class="sidebar-link-item" href="../badges/badges.html">
-                            <i class="fas fa-id-badge icon"></i>
-                            <span class="text nav-text">Badge</span>
-                        </a>
-                    </li>
-                    <li class="sidebar-link">
-                        <a class="sidebar-link-item" href="../button/button.html">
-                            <i class="fa-solid fa-stop icon"></i>
-                            <span class="text nav-text">Button</span>
-                        </a>
-                    </li>
-                    <li class="sidebar-link">
-                        <a class="sidebar-link-item" href="#">
-                            <i class="fas fa-address-card icon"></i>
-                            <span class="text nav-text">Card</span>
-                        </a>
-                    </li>
-                    <li class="sidebar-link">
-                        <a class="sidebar-link-item" href="../image/image.html">
-                            <i class="far fa-image icon"></i>
-                            <span class="text nav-text">Image</span>
-                        </a>
-                    </li>
-                    <li class="sidebar-link">
-                        <a class="sidebar-link-item" href="../input/input.html">
-                            <i class="fas fa-keyboard icon"></i>
-                            <span class="text nav-text">Input</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+            <div class="menu-bar">
+                <div class="menu">
+                    <ul class="menu-links">
+                        <li class="sidebar-link active">
+                            <a class="sidebar-link-item " href="../alert/alert.html">
+                                <i class="fas fa-exclamation-triangle icon active"></i>
+                                <span class="text nav-text active-text">Alert</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link ">
+                            <a class="sidebar-link-item" href="../avatar/avatar.html">
+                                <i class="fas fa-user-astronaut icon "></i>
+                                <span class="text nav-text ">Avatar</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link">
+                            <a class="sidebar-link-item" href="../badges/badges.html">
+                                <i class="fas fa-id-badge icon"></i>
+                                <span class="text nav-text">Badge</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link">
+                            <a class="sidebar-link-item" href="../button/button.html">
+                                <i class="fa-solid fa-stop icon"></i>
+                                <span class="text nav-text">Button</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link">
+                            <a class="sidebar-link-item" href="../card/card.html">
+                                <i class="fas fa-address-card icon"></i>
+                                <span class="text nav-text">Card</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link">
+                            <a class="sidebar-link-item" href="../image/image.html">
+                                <i class="far fa-image icon"></i>
+                                <span class="text nav-text">Image</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link">
+                            <a class="sidebar-link-item" href="../input/input.html">
+                                <i class="fas fa-keyboard icon"></i>
+                                <span class="text nav-text">Input</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link">
+                            <a class="sidebar-link-item" href="../list/list.html">
+                                <i class="far fa-list-alt icon"></i>
+                                <span class="text nav-text">List</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link">
+                            <a class="sidebar-link-item" href="../rating/rating.html">
+                                <i class="fas fa-star icon"></i>
+                                <span class="text nav-text">Rating</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link">
+                            <a class="sidebar-link-item" href="../slider/slider.html">
+                                <i class="fas fa-sliders-h icon"></i>
+                                <span class="text nav-text">Slider</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </aside>
         <main>
             <!--Alert component starts-->
-        <section class="home">
-            <div class="doc-content">
-                <div class="content-title">
-                    Alert
-                </div>
-                <div class="content-subtitle">
-                    An alert displays a short, important message in a way that attracts the user's attention without interrupting the user's task.                </div>
-                <div class="separator"></div>
-                <div class="content-subhead">
-                    Simple alert
-                </div>
-                <div class="content-subtitle">
-                    Simple Alerts can be created using the <code>alert</code> class, followed by their respective variant name (e.g. <code>alert-primary</code>).
-                </div>
-                <div class="component-container alert-container">
-                    <div class="alert error">
-                        <b class="alert-text">Danger alert:</b> There're some severe errors, fix them!
+            <section class="home">
+                <div class="doc-content">
+                    <div class="content-title">
+                        Alert
                     </div>
-                    <div class="alert primary">
-                        <b class="alert-text">Primary alert:</b> This is a primary alert.
+                    <div class="content-subtitle">
+                        An alert displays a short, important message in a way that attracts the user's attention without
+                        interrupting the user's task. </div>
+                    <div class="separator"></div>
+                    <div class="content-subhead">
+                        Simple alert
                     </div>
-                    <div class="alert success">
-                        <b class="alert-text">Success alert:</b> The code ran with 0 errors!
+                    <div class="content-subtitle">
+                        Simple Alerts can be created using the <code>alert</code> class, followed by their respective
+                        variant name (e.g. <code>alert-primary</code>).
                     </div>
-                    <div class="alert info">
-                        <b class="alert-text">Info alert:</b> You've got some friends nearby, connect with them!
+                    <div class="component-container alert-container">
+                        <div class="alert error">
+                            <b class="alert-text">Danger alert:</b> There're some severe errors, fix them!
+                        </div>
+                        <div class="alert primary">
+                            <b class="alert-text">Primary alert:</b> This is a primary alert.
+                        </div>
+                        <div class="alert success">
+                            <b class="alert-text">Success alert:</b> The code ran with 0 errors!
+                        </div>
+                        <div class="alert info">
+                            <b class="alert-text">Info alert:</b> You've got some friends nearby, connect with them!
+                        </div>
+                        <div class="alert warning">
+                            <b class="alert-text">Warning alert:</b> This is a warning alert!
+                        </div>
                     </div>
-                    <div class="alert warning">
-                        <b class="alert-text">Warning alert:</b> This is a warning alert!  
-                </div>   
-                </div>
-            
-                <div class="iframe">
-                    <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=22px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520error%2522%253E%250A%2520%2520%2520%2520%253Cb%2520class%253D%2522alert-text%2522%253EDanger%2520alert%253A%253C%252Fb%253E%2520There%27re%2520some%2520severe%2520errors%252C%2520fix%2520them%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520primary%2522%253E%250A%2520%2520%2520%2520%253Cb%2520class%253D%2522alert-text%2522%253EPrimary%2520alert%253A%253C%252Fb%253E%2520This%2520is%2520a%2520primary%2520alert.%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520success%2522%253E%250A%2520%2520%2520%2520%253Cb%2520class%253D%2522alert-info%2522%253ESuccess%2520alert%253A%253C%252Fb%253E%2520The%2520code%2520ran%2520with%25200%2520errors%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520info%2522%253E%250A%2520%2520%2520%2520%253Cb%2520class%253D%2522alert-text%2522%253EInfo%2520alert%253A%253C%252Fb%253E%2520You%27ve%2520got%2520some%2520friends%2520nearby%252C%2520connect%2520with%2520them%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520warning%2522%253E%250A%2520%2520%2520%2520%2520%253Cb%2520class%253D%2522alert-info%2522%253EWarning%2520alert%253A%253C%252Fb%253E%2520This%2520is%2520a%2520warning%2520alert%21%2520%2520%250A%253C%252Fdiv%253E%2520%2520%2520"
-  style="width: 100%; height: 400px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-</div>
-<div class="separator"></div>
-                <div class="content-subhead">
-                    Outlined Alert
-                </div>
-                <div class="content-subtitle">
-                    Outline alerts are created by using <code>alert</code>  class, followed by <code>variant-outline</code> .
-                </div>
-                <div class="component-container alert-container">
-                    <div class="alert error-outline">
-                        <b class="alert-text">Danger alert:</b> There're some severe errors, fix them!
+
+                    <div class="iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=22px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520error%2522%253E%250A%2520%2520%2520%2520%253Cb%2520class%253D%2522alert-text%2522%253EDanger%2520alert%253A%253C%252Fb%253E%2520There%27re%2520some%2520severe%2520errors%252C%2520fix%2520them%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520primary%2522%253E%250A%2520%2520%2520%2520%253Cb%2520class%253D%2522alert-text%2522%253EPrimary%2520alert%253A%253C%252Fb%253E%2520This%2520is%2520a%2520primary%2520alert.%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520success%2522%253E%250A%2520%2520%2520%2520%253Cb%2520class%253D%2522alert-info%2522%253ESuccess%2520alert%253A%253C%252Fb%253E%2520The%2520code%2520ran%2520with%25200%2520errors%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520info%2522%253E%250A%2520%2520%2520%2520%253Cb%2520class%253D%2522alert-text%2522%253EInfo%2520alert%253A%253C%252Fb%253E%2520You%27ve%2520got%2520some%2520friends%2520nearby%252C%2520connect%2520with%2520them%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520warning%2522%253E%250A%2520%2520%2520%2520%2520%253Cb%2520class%253D%2522alert-info%2522%253EWarning%2520alert%253A%253C%252Fb%253E%2520This%2520is%2520a%2520warning%2520alert%21%2520%2520%250A%253C%252Fdiv%253E%2520%2520%2520"
+                            style="width: 100%; height: 400px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
                     </div>
-                    <div class="alert primary-outline">
-                        <b class="alert-text">Primary alert:</b> This is a primary alert.
+                    <div class="separator"></div>
+                    <div class="content-subhead">
+                        Outlined Alert
                     </div>
-                    <div class="alert success-outline">
-                        <b class="alert-text">Success alert:</b> The code ran with 0 errors!
+                    <div class="content-subtitle">
+                        Outline alerts are created by using <code>alert</code> class, followed by
+                        <code>variant-outline</code> .
                     </div>
-                    <div class="alert info-outline">
-                        <b class="alert-text">Info alert:</b> You've got some friends nearby, connect with them!
+                    <div class="component-container alert-container">
+                        <div class="alert error-outline">
+                            <b class="alert-text">Danger alert:</b> There're some severe errors, fix them!
+                        </div>
+                        <div class="alert primary-outline">
+                            <b class="alert-text">Primary alert:</b> This is a primary alert.
+                        </div>
+                        <div class="alert success-outline">
+                            <b class="alert-text">Success alert:</b> The code ran with 0 errors!
+                        </div>
+                        <div class="alert info-outline">
+                            <b class="alert-text">Info alert:</b> You've got some friends nearby, connect with them!
+                        </div>
+                        <div class="alert warning-outline">
+                            <b class="alert-text">Warning alert:</b> This is a warning alert!
+                        </div>
                     </div>
-                    <div class="alert warning-outline">
-                        <b class="alert-text">Warning alert:</b> This is a warning alert!  
-                </div>   
-                </div>
-                <div class="iframe">
-                <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=26px&ph=20px&ln=false&fl=1&fm=Hack&fs=14px&lh=142%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520error-outline%2522%253E%250A%2520%2520%2520%2520%253Cb%2520class%253D%2522alert-text%2522%253EDanger%2520alert%253A%253C%252Fb%253E%2520There%27re%2520some%2520severe%2520errors%252C%2520fix%2520them%21%250A%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520primary-outline%2522%253E%250A%2520%2520%2520%2520%253Cb%2520class%253D%2522alert-text%2522%253EPrimary%2520alert%253A%253C%252Fb%253E%2520This%2520is%2520a%2520primary%2520alert.%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520success-outline%2522%253E%250A%2520%2520%2520%2520%253Cb%2520class%253D%2522alert-info%2522%253ESuccess%2520alert%253A%253C%252Fb%253E%2520The%2520code%2520ran%2520with%25200%2520errors%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520info-outline%2522%253E%250A%2520%2520%2520%2520%253Cb%2520class%253D%2522alert-text%2522%253EInfo%2520alert%253A%253C%252Fb%253E%2520You%27ve%2520got%2520some%2520friends%2520nearby%252C%2520connect%2520with%2520them%21%250A%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522alert%2520warning-outline%2522%253E%250A%2520%2520%2520%2520%253Cb%2520class%253D%2522alert-info%2522%253EWarning%2520alert%253A%253C%252Fb%253E%2520This%2520is%2520a%2520warning%2520alert%21%2520%2520%250A%253C%252Fdiv%253E%2520"
-  style="width: 854px; height: 424px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-</div>
-                
-        </section>
- </main>
+                    <div class="iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=26px&ph=20px&ln=false&fl=1&fm=Hack&fs=14px&lh=142%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520error-outline%2522%253E%250A%2520%2520%2520%2520%253Cb%2520class%253D%2522alert-text%2522%253EDanger%2520alert%253A%253C%252Fb%253E%2520There%27re%2520some%2520severe%2520errors%252C%2520fix%2520them%21%250A%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520primary-outline%2522%253E%250A%2520%2520%2520%2520%253Cb%2520class%253D%2522alert-text%2522%253EPrimary%2520alert%253A%253C%252Fb%253E%2520This%2520is%2520a%2520primary%2520alert.%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520success-outline%2522%253E%250A%2520%2520%2520%2520%253Cb%2520class%253D%2522alert-info%2522%253ESuccess%2520alert%253A%253C%252Fb%253E%2520The%2520code%2520ran%2520with%25200%2520errors%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520info-outline%2522%253E%250A%2520%2520%2520%2520%253Cb%2520class%253D%2522alert-text%2522%253EInfo%2520alert%253A%253C%252Fb%253E%2520You%27ve%2520got%2520some%2520friends%2520nearby%252C%2520connect%2520with%2520them%21%250A%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522alert%2520warning-outline%2522%253E%250A%2520%2520%2520%2520%253Cb%2520class%253D%2522alert-info%2522%253EWarning%2520alert%253A%253C%252Fb%253E%2520This%2520is%2520a%2520warning%2520alert%21%2520%2520%250A%253C%252Fdiv%253E%2520"
+                            style="width: 854px; height: 424px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+            </section>
+        </main>
     </div>
     <script>
-    const body = document.querySelector('body'),
-      sidebar = document.querySelector('aside'),
-      toggle = document.querySelector(".toggle"),
-      activeIcon = document.querySelector(".icon")
-      toggle.addEventListener("click" , () =>{
-    sidebar.classList.toggle("close");
-})
+        const body = document.querySelector('body'),
+            sidebar = document.querySelector('aside'),
+            toggle = document.querySelector(".toggle"),
+            activeIcon = document.querySelector(".icon")
+        toggle.addEventListener("click", () => {
+            sidebar.classList.toggle("close");
+        })
     </script>
-  </body>
+</body>
 
-    </script>
-  </body>
+</script>
+</body>
+
 </html>
