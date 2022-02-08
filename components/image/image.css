@@ -1,18 +1,18 @@
-.img-square{
-    height: 200px;
-    width: 200px;
-    object-fit: cover;
-    margin: 0.8rem;
+.img-square {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  margin: 0.8rem;
 }
-.img-round{
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    /* margin: 10px; */
-    object-fit: cover;
+.img-round {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  /* margin: 10px; */
+  object-fit: cover;
 }
-.img-rsp{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+.img-rsp {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
