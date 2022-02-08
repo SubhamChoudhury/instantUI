@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i,600,700");
-@import url("../components/avatar/avatar.css");
+@import url('../shared/reset.css');
+@import url('../shared/navbar.css');
+@import url('../shared/sidebar.css');
+@import url('../shared/root.css');
+
 
 .doc-content {
   min-width: 0;
