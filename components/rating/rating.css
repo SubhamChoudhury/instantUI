@@ -1,0 +1,12 @@
+.component-container {
+  justify-content: center;
+}
+input[type="radio"] {
+  appearance: none;
+}
+
+.star-icon {
+  color: var(--yellow);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
