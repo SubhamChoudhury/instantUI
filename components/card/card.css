@@ -1,0 +1,129 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  
+  max-width: 350px;
+  height: max-content;
+  border-radius: 10px;
+  background: white;
+}
+.card-product {
+  font-family: "Nunito Sans", sans-serif;
+  position: relative;
+}
+.card-with-badge {
+  position: relative;
+}
+.card-product .card-header {
+  position: relative;
+  height: 230px;
+}
+.card-product .card-content {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 100%;
+}
+.card-product .card-header img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.card-product .product-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: black;
+}
+.card-product .product-category {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--gray);
+  margin: 0.5rem 0;
+}
+.card-price .final-price {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+.card-price .actual-price {
+  font-weight: 400;
+  font-size: 0.9rem;
+  text-decoration: line-through;
+  color: var(--gray);
+  margin: 0 0.2rem;
+}
+.card-price .discount {
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #00a069;
+  padding-left: 5px;
+}
+.card-with-badge .card-badge {
+  position: absolute;
+  top: 3%;
+  right: 72%;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.2rem 0.5rem;
+  background-color: #00a069;
+  color: white;
+}
+.card-like-icon {
+  position: absolute;
+  top: 4%;
+  right: 6%;
+  background-color: transparent;
+}
+.card-like-icon i {
+  color: var(--gray);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.card-like-icon i:hover {
+  color: var(--primary-color);
+}
+.card-footer {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.card-text-overlay {
+  position: relative;
+  opacity: 0.2;
+}
+.text-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--danger-color);
+}
+.component-container{
+    gap: 0.5rem;
+}
+.text-card {
+  padding: 1rem;
+}
+.text-card .card-title{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.25rem;
+    margin-bottom: 0.8rem;
+}
+.text-card .card-subtitle{
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--gray);
+  padding: 0.3rem 0;
+  line-height: 1.5;
+}
+.card-shadow{
+    box-shadow: 3px 6px 14px 1px rgb(0 0 0 / 75%);
+}

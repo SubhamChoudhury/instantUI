@@ -9,7 +9,7 @@
   border-radius: 1px;
   transition: var(--tran-02);
   opacity: 0.8;
-  margin: 0.8rem;
+  margin: 0.5rem;
 }
 .base-btn:hover {
   opacity: 1;
