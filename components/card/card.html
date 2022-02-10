@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../shared/components.css">
+    <link rel="stylesheet" href="../button/button.css">
+    <link rel="stylesheet" href="./card.css" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Cards</title>
+</head>
+
+<body>
+    <div class="wrapper" id="wrapper">
+        <header>
+            <nav class="navbar">
+                <div class="nav-left">
+                    <a class="logo-text" href="../../index.html">Instant UI</a>
+                    <span class="version">v1.0</span>
+                </div>
+                <ul class="nav-right">
+                    <li class="nav-right-list-items">
+                        <a class="nav-right-list-item" href="#">Docs</a>
+                    </li>
+                    <li class="nav-right-list-items">
+                        <a class="nav-right-list-item" href=""><img src="../../assets/GitHub.svg" /></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <aside class="sidebar close">
+            <header class='menu-header'>
+                <i class="fas fa-chevron-circle-right toggle"></i>
+                <div class="text component-text">
+                    <span class="sidebar-menu-name">How to use?</span>
+                </div>
+                <div class="menu-bar">
+                    <div class="menu">
+                        <ul class="menu-links">
+                            <li class="sidebar-link">
+                                <a class="sidebar-link-item" href="#">
+                                    <i class="fas fa-question-circle icon"></i>
+                                    <span class="text nav-text">To be updated</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text component-text">
+                    <span class="sidebar-menu-name">Components</span>
+                </div>
+            </header>
+            <div class="menu-bar">
+                <div class="menu">
+                    <ul class="menu-links">
+                        <li class="sidebar-link ">
+                            <a class="sidebar-link-item" href="../alert/alert.html">
+                                <i class="fas fa-exclamation-triangle icon "></i>
+                                <span class="text nav-text">Alert</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link ">
+                            <a class="sidebar-link-item" href="../avatar/avatar.html">
+                                <i class="fas fa-user-astronaut icon "></i>
+                                <span class="text nav-text ">Avatar</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link">
+                            <a class="sidebar-link-item" href="../badges/badges.html">
+                                <i class="fas fa-id-badge icon"></i>
+                                <span class="text nav-text">Badge</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link">
+                            <a class="sidebar-link-item" href="../button/button.html">
+                                <i class="fa-solid fa-stop icon"></i>
+                                <span class="text nav-text">Button</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link active">
+                            <a class="sidebar-link-item" href="../card/card.html">
+                                <i class="fas fa-address-card icon active"></i>
+                                <span class="text nav-text active-text">Card</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link">
+                            <a class="sidebar-link-item" href="../image/image.html">
+                                <i class="far fa-image icon"></i>
+                                <span class="text nav-text ">Image</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link">
+                            <a class="sidebar-link-item" href="../input/input.html">
+                                <i class="fas fa-keyboard icon"></i>
+                                <span class="text nav-text">Input</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link">
+                            <a class="sidebar-link-item" href="../list/list.html">
+                                <i class="far fa-list-alt icon"></i>
+                                <span class="text nav-text ">List</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link">
+                            <a class="sidebar-link-item" href="../rating/rating.html">
+                                <i class="fas fa-star icon"></i>
+                                <span class="text nav-text">Rating</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link">
+                            <a class="sidebar-link-item" href="../slider/slider.html">
+                                <i class="fas fa-sliders-h icon"></i>
+                                <span class="text nav-text">Slider</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <main>
+            <!--Card component starts-->
+            <section class="home">
+                <div class="doc-content">
+                    <div class="content-title">
+                        Card
+                    </div>
+                    <div class="content-subtitle">Cards are great for organizing and enhancing a website's user
+                        interface. Each card is uniquely designed to make it easy for users to read the card content.
+                    </div>
+                    <!--Card with badge-->
+                    <div class="content-subhead">Card with Badge</div>
+                    <div class="content-subtitle">
+                        This type of card has a badge on either top-left or top-right corner.</div>
+
+                    <div class="component-container">
+                        <div class="card card-product card-with-badge">
+                            <div class="card-header">
+                                <img src="https://bit.ly/3rEZXh4" alt="sweatshirt">
+                            </div>
+                            <div class="card-badge">NEW ARRIVAL</div>
+                            <button class="card-like-icon">
+                                <i class="far fa-heart fa-2x"></i>
+                            </button>
+                            <div class="card-content">
+                                <h5 class="product-title">Badge Hooded Sweatshirt</h5>
+                                <small class="product-category">Clothing</small>
+                                <div class="card-price">
+                                    <span class="final-price">₹2,500</span>
+                                    <span class="actual-price">₹4,000</span>
+                                    <span class="discount">- ₹1,500 (38% off)</span>
+                                </div>
+                                <div class="card-footer">
+                                    <button class="base-btn btn-primary">ADD TO CART</button>
+                                    <button class="base-btn outline-primary">MOVE TO WISHLIST</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=htmlmixed&width=646&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=18px&ph=15px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-product%2520card-with-badge%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fbit.ly%252F3rEZXh4%2522%2520alt%253D%2522sweatshirt%2522%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253ENEW%2520ARRIVAL%253C%252Fdiv%253E%250A%2520%2520%253Cbutton%2520class%253D%2522card-like-icon%2522%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%253Ch5%2520class%253D%2522product-title%2522%253EBadge%2520Hooded%2520Sweatshirt%253C%252Fh5%253E%250A%2520%2520%253Csmall%2520class%253D%2522product-category%2522%253EClothing%253C%252Fsmall%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522final-price%2522%253E%25E2%2582%25B92%252C500%253C%252Fspan%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522actual-price%2522%253E%25E2%2582%25B94%252C000%253C%252Fspan%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E-%2520%25E2%2582%25B91%252C500%2520%2838%2525%2520off%29%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522base-btn%2520btn-primary%2522%253EADD%2520TO%2520CART%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522base-btn%2520outline-primary%2522%253EMOVE%2520TO%2520WISHLIST%253C%252Fbutton%253E%250A%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 100%; height: 590px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <div class="separator"></div>
+                    <!--Card with dismiss-->
+                    <div class="content-subhead">
+                        Card with dismiss
+                    </div>
+                    <div class="content-subtitle">
+                        This type of card has a dismiss button on top-right corner.
+                    </div>
+                    <div class="component-container">
+                        <div class="card card-product card-with-badge">
+                            <div class="card-header">
+                                <img src="https://bit.ly/3rEZXh4" alt="sweatshirt">
+                            </div>
+                            <div class="card-badge">NEW ARRIVAL</div>
+                            <button class="card-like-icon">
+                                <i class="fas fa-times fa-2x"></i>
+                            </button>
+                            <div class="card-content">
+                                <h5 class="product-title">Badge Hooded Sweatshirt</h5>
+                                <small class="product-category">Clothing</small>
+                                <div class="card-price">
+                                    <span class="final-price">₹2,500</span>
+                                    <span class="actual-price">₹4,000</span>
+                                    <span class="discount">- ₹1,500 (38% off)</span>
+                                </div>
+                                <div class="card-footer">
+                                    <button class="base-btn btn-primary">ADD TO CART</button>
+                                    <button class="base-btn outline-primary">MOVE TO WISHLIST</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=htmlmixed&width=646&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=18px&ph=15px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-product%2520card-with-badge%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fbit.ly%252F3rEZXh4%2522%2520alt%253D%2522sweatshirt%2522%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253ENEW%2520ARRIVAL%253C%252Fdiv%253E%250A%2520%2520%253Cbutton%2520class%253D%2522card-like-icon%2522%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%253Ch5%2520class%253D%2522product-title%2522%253EBadge%2520Hooded%2520Sweatshirt%253C%252Fh5%253E%250A%2520%2520%253Csmall%2520class%253D%2522product-category%2522%253EClothing%253C%252Fsmall%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522final-price%2522%253E%25E2%2582%25B92%252C500%253C%252Fspan%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522actual-price%2522%253E%25E2%2582%25B94%252C000%253C%252Fspan%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E-%2520%25E2%2582%25B91%252C500%2520%2838%2525%2520off%29%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522base-btn%2520btn-primary%2522%253EADD%2520TO%2520CART%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522base-btn%2520outline-primary%2522%253EMOVE%2520TO%2520WISHLIST%253C%252Fbutton%253E%250A%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 100%; height: 600px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <div class="separator"></div>
+                    <!--Card with overlay-->
+                    <div class="content-subhead">
+                        Card with Overlay
+                    </div>
+                    <div class="content-subtitle">
+                        This card has a text overlay on top of it.
+                    </div>
+                    <div class="component-container">
+                        <div class="card card-product ">
+                            <div class="card-text-overlay">
+                                <div class="card-header">
+                                    <img src="https://bit.ly/3rEZXh4" alt="sweatshirt">
+                                </div>
+                                <button class="card-like-icon">
+                                    <i class="fas fa-times fa-2x"></i>
+                                </button>
+                                <div class="card-content">
+                                    <h5 class="product-title">Badge Hooded Sweatshirt</h5>
+                                    <small class="product-category">Clothing</small>
+                                    <div class="card-price">
+                                        <span class="final-price">₹2,500</span>
+                                        <span class="actual-price">₹4,000</span>
+                                        <span class="discount">- ₹1,500 (38% off)</span>
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="base-btn btn-primary">ADD TO CART</button>
+                                        <button class="base-btn outline-primary">MOVE TO WISHLIST</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-overlay">Out of Stock</div>
+                        </div>
+                    </div>
+                    <div class="iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=htmlmixed&width=590&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=18px&ph=15px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522card%2520card-product%2520%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-text-overlay%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fbit.ly%252F3rEZXh4%2522%2520alt%253D%2522sweatshirt%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-like-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%253Ch5%2520class%253D%2522product-title%2522%253EBadge%2520Hooded%2520Sweatshirt%253C%252Fh5%253E%250A%2520%2520%2520%2520%253Csmall%2520class%253D%2522product-category%2522%253EClothing%253C%252Fsmall%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522final-price%2522%253E%25E2%2582%25B92%252C500%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522actual-price%2522%253E%25E2%2582%25B94%252C000%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E-%2520%25E2%2582%25B91%252C500%2520%2838%2525%2520off%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522base-btn%2520btn-primary%2522%253EADD%2520TO%2520CART%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522base-btn%2520outline-primary%2522%253EMOVE%2520TO%2520WISHLIST%250A%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522text-overlay%2522%253EOut%2520of%2520Stock%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 100%; height: 630px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <div class="separator"></div>
+
+                    <!--Text only Card-->
+                    <div class="content-subhead">
+                        Text only card
+                    </div>
+                    <div class="content-subtitle">
+                        Text only card includes a title and a paragraph text.
+                    </div>
+                    <div class="component-container">
+                        <div class="card text-card">
+                            <h5 class="card-title">Heading</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis unde nam
+                                ipsa tempora delectus velit? Earum amet vel delectus deserunt?</p>
+                        </div>
+                        <div class="card text-card">
+                            <h5 class="card-title">Heading</h5>
+                            <small class="card-subtitle">Subheading</small>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam
+                                placeat, tempora asperiores atque explicabo cum minima inventore consequatur natus
+                                suscipit!</p>
+                        </div>
+                    </div>
+                    <div class="iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=htmlmixed&width=754&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=19px&ph=21px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520text-card%2522%253E%250A%253Ch5%2520class%253D%2522card-title%2522%253EHeading%253C%252Fh5%253E%250A%253Cp%2520class%253D%2522card-text%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Nobis%2520unde%2520nam%2520ipsa%2520tempora%2520delectus%2520velit%253F%2520Earum%2520amet%2520vel%2520delectus%2520deserunt%253F%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card%2520text-card%2522%253E%250A%253Ch5%2520class%253D%2522card-title%2522%253EHeading%253C%252Fh5%253E%250A%253Csmall%2520class%253D%2522card-subtitle%2522%253ESubheading%253C%252Fsmall%253E%250A%253Cp%2520class%253D%2522card-text%2522%253ELorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Magnam%2520placeat%252C%2520tempora%2520asperiores%2520atque%2520explicabo%2520cum%2520minima%2520inventore%2520consequatur%2520natus%2520suscipit%21%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                            style="width: 100%; height: 340px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <div class="separator"></div>
+
+                    <!--Card with Shadow-->
+                    <div class="content-subhead">
+                        Card with Shadow
+                    </div>
+                    <div class="content-subtitle">
+                        To add some elevation to the card, add the <code>card-shadow</code> class.
+                    </div>
+                    <div class="component-container">
+                        <div class="card card-product card-with-badge card-shadow">
+                            <div class="card-header">
+                                <img src="https://bit.ly/3rEZXh4" alt="sweatshirt">
+                            </div>
+                            <div class="card-badge">NEW ARRIVAL</div>
+                            <button class="card-like-icon">
+                                <i class="far fa-heart fa-2x"></i>
+                            </button>
+                            <div class="card-content">
+                                <h5 class="product-title">Badge Hooded Sweatshirt</h5>
+                                <small class="product-category">Clothing</small>
+                                <div class="card-price">
+                                    <span class="final-price">₹2,500</span>
+                                    <span class="actual-price">₹4,000</span>
+                                    <span class="discount">- ₹1,500 (38% off)</span>
+                                </div>
+                                <div class="card-footer">
+                                    <button class="base-btn btn-primary">ADD TO CART</button>
+                                    <button class="base-btn outline-primary">MOVE TO WISHLIST</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=htmlmixed&width=754&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=19px&ph=21px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-product%2520card-with-badge%2520card-shadow%2522%253E%253C%252Fdiv%253E"
+                            style="width: 100%; height: 130px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script>
+            const body = document.querySelector('body'),
+                sidebar = document.querySelector('aside'),
+                toggle = document.querySelector(".toggle"),
+                activeIcon = document.querySelector(".icon")
+            toggle.addEventListener("click", () => {
+                sidebar.classList.toggle("close");
+            })
+        </script>
+</body>
+
+</html>
