@@ -1,63 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i,600,700");
-@import url('../shared/reset.css');
-@import url('../shared/navbar.css');
-@import url('../shared/sidebar.css');
-@import url('../shared/root.css');
-
-
-.doc-content {
-  min-width: 0;
-  margin: 0px auto;
-  max-width: 800px;
-  flex: 1 1 0%;
-}
-.content-title {
-  font-family: "Nunito Sans", sans-serif;
-  color: var(--title-and-subtitle);
-  font-size: 2rem;
-  font-weight: 900;
-}
-.content-subtitle {
-  font-family: "Nunito Sans", sans-serif;
-  line-height: 27px;
-  color: var(--title-and-subtitle);
-  margin-top: 1.5rem;
-  font-size: 1rem;
-  font-weight: 400;
-}
-.content-subhead {
-  font-family: "Nunito Sans", sans-serif;
-  color: #333;
-  font-size: 1.7rem;
-  font-weight: 800;
-  margin: 1.5rem 0 1rem 0;
-}
-.iframe {
-  margin-top: 2rem;
-}
-.component-container {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-top: 2rem;
-  margin-bottom: 1.5rem;
-  padding: 1rem;
-  box-shadow: rgb(0 0 0 / 2%) 0px 1px 3px 0px,
-    rgb(27 31 35 / 15%) 0px 0px 0px 1px;
-  border-radius: 4px;
-  background-color: #f5f7f9;
-  min-height: 100px;
-  width: 100%;
-}
-.separator {
-  margin: 1rem 0 1rem 0;
-  border-bottom: 1.5px solid var(--primary-color-100);
-}
-.alert-container {
-  flex-direction: column;
-}
-.info {
-  color: var(--info-color);
-  font-weight: 500;
-}
+@import url("/components/alert/alert.css");
+@import url("/components/avatar/avatar.css");
+@import url("/components/badges/badges.css");
+@import url("/components/button/button.css");
+@import url("/components/card/card.css");
+@import url("/components/image/image.css");
+@import url("/components/input/input.css");
+@import url("/components/list/list.css");
+@import url("/components/rating/rating.css");
+@import url("/components/slider/slider.css");
+@import url("/shared/reset.css");
