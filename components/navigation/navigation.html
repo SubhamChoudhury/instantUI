@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
     <link rel="stylesheet" href="../../shared/layout.css">
-    <link rel="stylesheet" href="./slider.css" />
+    <link rel="stylesheet" href="./navigation.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <title>Slider</title>
+    <title>Navigation</title>
 </head>
 
 <body>
@@ -27,7 +27,8 @@
                         <a class="nav-right-list-item" href="https://github.com/SubhamChoudhury/instantUI">Docs</a>
                     </li>
                     <li class="nav-right-list-items">
-                        <a class="nav-right-list-item" href="https://github.com/SubhamChoudhury"><img src="../../assets/GitHub.svg" /></a>
+                        <a class="nav-right-list-item" href="https://github.com/SubhamChoudhury"><img
+                                src="../../assets/GitHub.svg" /></a>
                     </li>
                 </ul>
             </nav>
@@ -99,18 +100,17 @@
                                 <span class="text nav-text">Input</span>
                             </a>
                         </li>
-                         <li class="sidebar-link ">
+                        <li class="sidebar-link">
                             <a class="sidebar-link-item" href="../list/list.html">
                                 <i class="far fa-list-alt icon"></i>
-                                <span class="text nav-text ">List</span>
+                                <span class="text nav-text">List</span>
                             </a>
                         </li>
-                        <li class="sidebar-link ">
-                            <a class="sidebar-link-item" href="/components/navigation/navigation.html">
-                                <i class="fas fa-compass icon"></i>
-                                <span class="text nav-text">Navigation</span>
+                        <li class="sidebar-link active">
+                            <a class="sidebar-link-item" href="./navigation.html">
+                                <i class="fas fa-compass icon active"></i>
+                                <span class="text nav-text active-text">Navigation</span>
                             </a>
-                        </li>
                         </li>
                         <li class="sidebar-link">
                             <a class="sidebar-link-item" href="../rating/rating.html">
@@ -118,10 +118,10 @@
                                 <span class="text nav-text">Rating</span>
                             </a>
                         </li>
-                        <li class="sidebar-link active">
+                        <li class="sidebar-link">
                             <a class="sidebar-link-item" href="../slider/slider.html">
-                                <i class="fas fa-sliders-h icon active"></i>
-                                <span class="text nav-text active-text">Slider</span>
+                                <i class="fas fa-sliders-h icon"></i>
+                                <span class="text nav-text">Slider</span>
                             </a>
                         </li>
                     </ul>
@@ -129,57 +129,90 @@
             </div>
         </aside>
         <main>
-            <!--Slider component starts-->
+            <!--Navigation component starts-->
             <section class="home">
                 <div class="doc-content">
                     <div class="content-title">
-                        Slider
+                        Navigation
                     </div>
                     <div class="content-subtitle">
-                        Sliders allow users to make selections from a range of values in various places like sound,
-                        price, etc. </div>
+                        The navigation bar allows the user to navigate through the website, enabling them to quickly
+                        find information and services.</div>
+                    <div class="separator"></div>
+                    <!--Responsive Navigation-->
                     <div class="content-subhead">
-                        General Slider
+                        Desktop Navigation
+                    </div>
+                    <div class="content-subtitle">
+                        A Navigation bar or navigation system comes under GUI that helps the visitors in accessing
+                        information. It is the UI element on a webpage that includes links for the other sections of the
+                        website.
                     </div>
                     <div class="component-container">
-                        <input type="range" name="" class="slider" min="0" max="100" />
+                        <nav class="header-component">
+                            <a href="#" class="header-logo">Logo</a>
+                            <div class="header-search">
+                                <input class="search-input" type="text" placeholder="Search">
+                                <i class="fas fa-search search-icon"></i>
+                            </div>
+                            <ul class="user-menu">
+                                <li class="menu-icons"><a href="#"><i class="fas fa-bell"></i></a></li>
+                                <li class="menu-icons"><a href="#"><i class="fas fa-user-circle"></i></a></li>
+                                <li class="menu-icons"><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                <li class=" menu-icons header-hamburger"><a href="#"><i class="fas fa-bars"></i></a>
+                                </li>
+                            </ul>
+                        </nav>
+
                     </div>
                     <div class="iframe">
                         <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=18px&ph=15px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522range%2522%2520name%253D%2522%2522%2520class%253D%2522slider%2522%2520min%253D%25220%2522%2520max%253D%2522100%2522%2520%252F%253E"
-                            style="width: 100%; height: 130px; border:0; transform: scale(1); overflow:hidden;"
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=27px&ph=24px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522header-component%2522%253E%250A%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522header-logo%2522%253ELogo%253C%252Fa%253E%250A%2520%253Cdiv%2520class%253D%2522header-search%2522%253E%250A%2520%2520%2520%253Cinput%2520class%253D%2522search-input%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Search%2522%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-search%2520search-icon%2522%253E%253C%252Fi%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cul%2520class%253D%2522user-menu%2522%253E%250A%2520%2520%253Cli%2520class%253D%2522%2520menu-icons%2520header-hamburger%2522%253E%253Ca%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fas%2520fa-bars%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%253C%252Fli%253E%250A%2520%253C%252Ful%253E"
+                            style="width: 100%; height: 330px; border:0; transform: scale(1); overflow:hidden;"
                             sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
                     <div class="separator"></div>
-                    <!--Slider with icon-->
                     <div class="content-subhead">
-                        Slider with Icons
+                        Navigation with Hamburger
+                    </div>
+                    <div class="content-subtitle">
+                        This navigation component has a hamburger which can be opened by clicking on the hamburger icon.
+                        <div class="info">Note: It is not functional yet.</div>
                     </div>
                     <div class="component-container">
-                        <div class="icon-slider">
-                            <i class="fas fa-volume-up slider-icon"></i>
-                            <input type="range" name="" class="slider" min="0" max="100" />
-                        </div>
+                        <nav class="header-component">
+                            <a href="#" class="header-logo">Logo</a>
+                            <div class="header-search">
+                                <input class="search-input" type="text" placeholder="Search">
+                                <i class="fas fa-search search-icon"></i>
+                            </div>
+                            <ul class="user-menu">
+                                <li class=" menu-icons hamburger"><a href="#"><i class="fas fa-bars"></i></a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                     <div class="iframe">
                         <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=18px&ph=15px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522icon-slider%2522%253E%250A%2520%253Ci%2520class%253D%2522fas%2520fa-volume-up%2520slider-icon%2522%253E%253C%252Fi%253E%250A%2520%253Cinput%2520type%253D%2522range%2522%2520name%253D%2522%2522%2520class%253D%2522slider%2522%2520min%253D%25220%2522%2520max%253D%2522100%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
-                            style="width: 100%; height: 190px; border:0; transform: scale(1); overflow:hidden;"
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=24px&ph=21px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522header-component%2522%253E%250A%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522header-logo%2522%253ELogo%253C%252Fa%253E%250A%2520%253Cdiv%2520class%253D%2522header-search%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522search-input%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Search%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-search%2520search-icon%2522%253E%253C%252Fi%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cul%2520class%253D%2522user-menu%2522%253E%250A%2520%253Cli%2520class%253D%2522%2520menu-icons%2520header-hamburger%2522%253E%253Ca%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fas%2520fa-bars%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%253C%252Fli%253E%250A%2520%253C%252Ful%253E%250A%253C%252Fnav%253E"
+                            style="width: 100%; height: 340px; border:0; transform: scale(1); overflow:hidden;"
                             sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
+
                 </div>
             </section>
         </main>
-    <script>
-        const body = document.querySelector('body'),
-            sidebar = document.querySelector('aside'),
-            toggle = document.querySelector(".toggle"),
-            activeIcon = document.querySelector(".icon")
-        toggle.addEventListener("click", () => {
-            sidebar.classList.toggle("close");
-        })
-    </script>
+        <script>
+            const body = document.querySelector('body'),
+                sidebar = document.querySelector('aside'),
+                toggle = document.querySelector(".toggle"),
+                activeIcon = document.querySelector(".icon")
+            toggle.addEventListener("click", () => {
+                sidebar.classList.toggle("close");
+            })
+        </script>
 </body>
+
 </html>
