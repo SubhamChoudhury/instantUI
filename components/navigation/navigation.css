@@ -50,3 +50,16 @@ li {
 .user-menu > .menu-icons > a {
   margin-left: 15px;
 }
+.header-hamburger {
+  display: none;
+}
+ 
+@media screen and (max-width: 1020px) {
+  .menu-icons {
+    display: none;
+  }
+
+  .header-hamburger {
+    display: block;
+  }
+}
