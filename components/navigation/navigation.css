@@ -55,7 +55,7 @@ li {
 }
  
 @media screen and (max-width: 1020px) {
-  .menu-icons {
+  .menu-icons:not(.hamburger) {
     display: none;
   }
 
