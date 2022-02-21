@@ -1,0 +1,24 @@
+.grid {
+  display: grid;
+}
+.grid-ex {
+  gap: 2rem;
+  width: 100%;
+}
+
+.grid-ex > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--info-color);
+  color: var(--white);
+  border-radius: 10px;
+  height: 3.5rem;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
