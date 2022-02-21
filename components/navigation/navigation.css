@@ -1,0 +1,52 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.header-component {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 100%;
+  background-color: var(--white);
+  box-shadow: 6px 1px 13px 0px #dddddd;
+}
+.header-logo {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.header-search {
+  width: 70%;
+  height: 40px;
+  position: relative;
+}
+.header-search .search-input {
+  height: 100%;
+  width: 100%;
+  font-size: 1rem;
+  outline: 0;
+  padding: 0 1.5rem;
+  border-radius: 10px;
+  border: 0;
+  background-color: var(--gray-light-shade);
+}
+.header-search .search-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  cursor: pointer;
+}
+li {
+  list-style-type: none;
+}
+.user-menu {
+  display: flex;
+}
+.user-menu > .menu-icons > a {
+  margin-left: 15px;
+}
