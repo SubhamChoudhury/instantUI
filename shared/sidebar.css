@@ -19,11 +19,11 @@ body::-webkit-scrollbar {
   box-shadow: 13px 12px 5px 0 rgb(0 0 0 / 16%);
 }
 .sidebar .sidebar-link {
-  height: 40px;
+  height: 2.5rem;
   list-style: none;
   display: flex;
   align-items: center;
-  margin-top: 0.6rem;
+  margin-top: 0.4rem;
 }
 .sidebar .menu-header .image,
 .sidebar .icon {
@@ -64,7 +64,7 @@ body::-webkit-scrollbar {
 .sidebar-menu-name {
   text-align: center;
   font-weight: 700;
-  margin-top: 0.8rem;
+  margin-top: 0.4rem;
   border-bottom: 1px solid black;
   color: black;
   padding: 8px;
@@ -94,19 +94,14 @@ body::-webkit-scrollbar {
 .sidebar.close .toggle {
   transform: translateY(-50%) rotate(0deg);
 }
-.sidebar .menu {
-  margin-top: 8px;
-}
 .sidebar .sidebar-link a {
   list-style: none;
-  height: 100%;
   background-color: transparent;
   display: flex;
   align-items: center;
   height: 100%;
   width: 100%;
   border-radius: 6px;
-  text-decoration: none;
   transition: var(--tran-03);
 }
 .sidebar .sidebar-link a:hover {
