@@ -6,16 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
-    <link rel="stylesheet" href="../../shared/layout.css">
-    <link rel="stylesheet" href="./input.css" />
+    <link rel="stylesheet" href="/shared/layout.css">
+    <link rel="stylesheet" href="/components/button/button.css">
+    <link rel="stylesheet" href="./snackbar.css" />
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <title>Input</title>
+    <title>Snackbar</title>
 </head>
 
 <body>
-    <a name="top"></a>
     <div class="wrapper" id="wrapper">
         <header>
             <nav class="navbar">
@@ -28,7 +28,8 @@
                         <a class="nav-right-list-item" href="https://github.com/SubhamChoudhury/instantUI">Docs</a>
                     </li>
                     <li class="nav-right-list-items">
-                        <a class="nav-right-list-item" href="https://github.com/SubhamChoudhury"><img src="../../assets/GitHub.svg" /></a>
+                        <a class="nav-right-list-item" href="https://github.com/SubhamChoudhury"><img
+                                src="../../assets/GitHub.svg" /></a>
                     </li>
                 </ul>
             </nav>
@@ -94,25 +95,25 @@
                                 <span class="text nav-text">Grid</span>
                             </a>
                         </li>
-                        <li class="sidebar-link ">
+                        <li class="sidebar-link">
                             <a class="sidebar-link-item" href="../image/image.html">
                                 <i class="far fa-image icon"></i>
-                                <span class="text nav-text">Image</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-link active">
-                            <a class="sidebar-link-item" href="../input/input.html">
-                                <i class="fas fa-keyboard icon active"></i>
-                                <span class="text nav-text active-text">Input</span>
+                                <span class="text nav-text ">Image</span>
                             </a>
                         </li>
                         <li class="sidebar-link">
+                            <a class="sidebar-link-item" href="../input/input.html">
+                                <i class="fas fa-keyboard icon"></i>
+                                <span class="text nav-text">Input</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-link ">
                             <a class="sidebar-link-item" href="../list/list.html">
                                 <i class="far fa-list-alt icon"></i>
-                                <span class="text nav-text">List</span>
+                                <span class="text nav-text ">List</span>
                             </a>
                         </li>
-                        <li class="sidebar-link">
+                        <li class="sidebar-link ">
                             <a class="sidebar-link-item" href="/components/navigation/navigation.html">
                                 <i class="fas fa-compass icon"></i>
                                 <span class="text nav-text">Navigation</span>
@@ -131,10 +132,10 @@
                                 <span class="text nav-text">Slider</span>
                             </a>
                         </li>
-                        <li class="sidebar-link">
-                            <a class="sidebar-link-item" href="/components/snackbar/snackbar.html">
-                                <i class="fas fa-flag icon"></i>
-                                <span class="text nav-text">Snackbar</span>
+                        <li class="sidebar-link active">
+                            <a class="sidebar-link-item" href="./snackbar.html">
+                                <i class="fas fa-flag icon active"></i>
+                                <span class="text nav-text active-text">Snackbar</span>
                             </a>
                         </li>
                     </ul>
@@ -142,74 +143,63 @@
             </div>
         </aside>
         <main>
-            <!--Input component starts-->
+            <!--Slider component starts-->
             <section class="home">
                 <div class="doc-content">
                     <div class="content-title">
-                        Inputs
+                        Snackbar
                     </div>
                     <div class="content-subtitle">
-                        Inputs enable user interaction with the website. Inputs are used to take and record information
-                        from the user, for later use. </div>
-                    <div class="separator"></div>
-
-                    <!--Textbox Input-->
+                        Snackbar is a component that displays a short message at the bottom of the screen.
+                    </div>
                     <div class="content-subhead">
-                        Textbox
+                        Baseline
                     </div>
                     <div class="content-subtitle">
-                        Textbox provides a text input area used to collect information from the user.
+                        Baseline is the most basic variant of snackbar.
+                        <div class="info">Click on the button below to try! (Copy both HTML and JS code below)</div>
                     </div>
                     <div class="component-container">
-                        <div class="inp-wrapper">
-                            <label>Enter the information</label>
-                            <input type="text" class="inp-textbox">
+                        <button class="base-btn  btn-info snackbar-btn">Baseline</button>
+                        <div class="snackbar snackbar-baseline">
+                            <p class="snackbar-message">
+                                Can't send photo. Retry in 5 seconds.
+                            </p>
                         </div>
-
-                    </div>
-
-                    <div class="iframe">
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=htmlmixed&width=694&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=23px&ph=18px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522inp-textbox%2522%253E%250A%2520%2520%2520%253Clabel%253EEnter%2520the%2520information%253C%252Flabel%253E%250A%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%253E%250A%2520%253C%252Fdiv%253E"
-                            style="width: 100%; height: 200px; border:0; transform: scale(1); overflow:hidden;"
-                            sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-                    </div>
-                    <div class="separator"></div>
-
-                    <!--Input field with validation-->
-                    <div class="content-subhead">
-                        Input field with Validation
                     </div>
                     <div class="content-subtitle">
-                        Input field with validation helps to validate the kind of data collected from the user.<br />
-                        <div class="info">Note : Type your email address to check validation.</div>
-                    </div>
-                    <div class="component-container">
-                        <form action="" class="inp-wrapper inp-validation ">
-                            <label>Enter your email</label>
-                            <input type="email" class="inp-textbox" required>
-                        </form>
+                        HTML Code
                     </div>
                     <div class="iframe">
                         <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=21px&ph=21px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cform%2520action%253D%2522%2522%2520class%253D%2522inp-wrapper%2520inp-validation%2520%2522%253E%250A%2520%2520%2520%2520%2520%253Clabel%253EEnter%2520your%2520email%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520class%253D%2522inp-textbox%2522%2520required%253E%250A%253C%252Fform%253E"
-                            style="width: 100%; height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=16px&ph=21px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522base-btn%2520%2520btn-info%2520snackbar-btn%2522%253EBaseline%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522snackbar%2520snackbar-baseline%2522%253E%250A%2520%2520%253Cp%2520class%253D%2522snackbar-message%2522%253E%250A%2520%2520%2520%2520Can%27t%2520send%2520photo.%2520Retry%2520in%25205%2520seconds.%250A%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                            style="width: 100%; height: 230px; border:0; transform: scale(1); overflow:hidden;"
                             sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
+                    <div class="content-subtitle">
+                        Javascript Code
+                    </div>
+                    <div class="iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=sharp&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=16px&ph=21px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520baseline%2520%253D%2520document.querySelector%28%2522.snackbar-btn%2522%29%253B%250Aconst%2520baselineContent%2520%253D%2520document.querySelector%28%2522.snackbar-baseline%2522%29%253B%250Aconst%2520hideToast%2520%253D%2520%28%29%2520%253D%253E%2520%28baselineContent.style.visibility%2520%253D%2520%2522hidden%2522%29%253B%250Abaseline.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520baselineContent.style.visibility%2520%253D%2520%2522visible%2522%253B%250A%2520%2520%2520%2520setTimeout%28hideToast%252C%25203000%29%253B%250A%257D%29%253B"
+                            style="width: 100%; height: 270px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
             </section>
         </main>
-    </div>
-    <script>
-        const body = document.querySelector('body'),
-            sidebar = document.querySelector('aside'),
-            toggle = document.querySelector(".toggle"),
-            activeIcon = document.querySelector(".icon")
-        toggle.addEventListener("click", () => {
-            sidebar.classList.toggle("close");
-        })
-    </script>
+        <script>
+            const body = document.querySelector('body'),
+                sidebar = document.querySelector('aside'),
+                toggle = document.querySelector(".toggle"),
+                activeIcon = document.querySelector(".icon")
+            toggle.addEventListener("click", () => {
+                sidebar.classList.toggle("close");
+            })
+        </script>
+        <script src="./snackbar.js"></script>
 </body>
 
 </html>
