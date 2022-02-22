@@ -1,0 +1,32 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+.component-container {
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+.type-1 {
+  font-size: 2.5rem;
+}
+.type-2 {
+  font-size: 1.5rem;
+}
+.type-3 {
+  font-size: 1.2rem;
+}
+.type-4 {
+  font-size: 1rem;
+}
+.type-5  {
+  font-size: 0.8rem;
+}
+.type-6 {
+  font-size: 0.6rem;
+}
+.gray{
+    color: var(--gray);
+}
+.text-align{
+    text-align: center;
+}
