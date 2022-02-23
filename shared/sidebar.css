@@ -23,7 +23,7 @@ body::-webkit-scrollbar {
   list-style: none;
   display: flex;
   align-items: center;
-  margin-top: 0.8rem;
+  margin-top: 0.6rem;
 }
 .sidebar .menu-header .image,
 .sidebar .icon {
