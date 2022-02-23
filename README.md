@@ -43,12 +43,13 @@ Instant UI uses [fontawesome](https://fontawesome.com/) to satisfy the icon requ
 - [Ratings](https://instant-ui.netlify.app/components/rating/rating.html)
 - [Slider](https://instant-ui.netlify.app/components/slider/slider.html)
 - [Snackbar](https://instant-ui.netlify.app/components/snackbar/snackbar.html)
+- [Text Utilities](https://instant-ui.netlify.app/components/text-utilities/text-utilities.html)
 
 ## Quick Tour
 
 <div align="center">
   
-![instantUI](https://user-images.githubusercontent.com/55877612/155060611-d7748a68-583f-44fa-a05a-63e3e096f900.gif)
+![instantUI](https://user-images.githubusercontent.com/55877612/155256099-65d70ee4-cde7-4516-a922-f91c3c5a8676.gif)
   
 </div>
 
@@ -69,7 +70,3 @@ Feedbacks and suggestions are welcome and always appreciated, connect with me :
 <a href="https://www.linkedin.com/in/subham-choudhury/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://github.com/SubhamChoudhury" target="_blank"><img src="https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white"/>
 </a>
-
-<div align="center">
-Made with 💙 by &lt; Subham /&gt; 
-</div>
